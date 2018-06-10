@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <calMeter msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import calMeter from './components/calMeter.vue'
 
 export default {
-  name: 'app',
+  name: 'calMeter',
   components: {
-    HelloWorld
+    calMeter
   }
 }
 </script>
