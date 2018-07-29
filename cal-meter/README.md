@@ -1,5 +1,8 @@
 # cal-meter
 
+ Created a Vue-based calorie meter
+ The meter look  like in the picture (https://ibb.co/fNAZvo)
+
 ## Project setup
 ```
 npm install

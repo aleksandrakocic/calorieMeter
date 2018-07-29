@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <calMeter/>
+  
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import calMeter from './components/calMeter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    calMeter
   }
 }
 </script>
 
-<style>
+ <style lang="scss">
+ body{
+  background: linear-gradient(25deg, #FFEB3B, darken(#00BFA5, 10));
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  margin: 3rem auto;
+  height: 100vh;
+  width: 100vw;
+  width: 740px;
+  background: linear-gradient(25deg, #FFEB3B, darken(#00BFA5, 10));
+  border-radius: 10px;
+}
+
 }
 </style>
